@@ -13,7 +13,7 @@ dot.classList.toggle('active', index === currentIndex);
 
 
 rightArrow.addEventListener('click', () => {
-const firstImage = imageContainer.firstElementChild; // Получаем первое изображение
+const firstImage = imageContainer.firstElementChild; 
 imageContainer.appendChild(firstImage); 
 currentIndex = (currentIndex + 1) % imageCount; 
 updateDots(); 
